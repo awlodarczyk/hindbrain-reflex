@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitOverride": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "jsx": "react-native",
+    "outDir": "dist",
+    "rootDir": "src",
+    "noUncheckedIndexedAccess": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "src/**/__tests__/**",
+    "src/__mocks__/**"
+  ]
+}
